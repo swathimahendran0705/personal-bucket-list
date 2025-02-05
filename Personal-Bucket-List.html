@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <link rel="stylesheet" href="Personal-Bucket-List.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Bucket List</h1>
+        <ul id="list">
+            <li><span>Travel to chennai</span><button class="btn" onclick="markComplete(this)"></button></li>
+            <li><span>Learn reactjs</span><button class="btn-2" onclick="markComplete(this)"></button></li>
+            <li><span>playing</span><button class="btn-3" onclick="markComplete(this)"></button></li>
+        </ul>
+        <div class="input-area">
+            <input type="text" id="input" placeholder="Add a new goal...">
+            <button onclick="addItem()">Add</button>
+        </div>
+    </div>
+
+    <script src="Personal-Bucket-List.js"></script>
+</body>
+</html>
